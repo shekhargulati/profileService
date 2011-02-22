@@ -1,0 +1,8 @@
+This is a simple SOAP web service created using Spring WS 2.0.
+To run this application do
+mvn clean install jetty:run
+
+This will deploy the application in jetty container and you can see the wsdl at location http://localhost:8080/profileService/profile.wsdl
+Now you can use a tool like soap ui to test this web-service.
+
+
