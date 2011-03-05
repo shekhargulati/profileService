@@ -47,6 +47,20 @@
 					<warName>${pom.artifactId}</warName>
 				</configuration>
 			</plugin>
+			 <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>com.shekhar.usermanagement.profileService.ws.client.ProfileServiceClient</mainClass>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 	<dependencies>
