@@ -9,9 +9,5 @@
 
 	<context:component-scan base-package="com.shekhar.usermanagement.profileService.ws.server"></context:component-scan>
     <sws:annotation-driven/>
-
-	<sws:dynamic-wsdl id="profile" portTypeName="UserManagement" locationUri="/profileService" targetNamespace="http://shekhar.com/usermanagement/schemas">
-		<sws:xsd location="/WEB-INF/userManagement.xsd"/>
-	</sws:dynamic-wsdl>
 	
 </beans>
